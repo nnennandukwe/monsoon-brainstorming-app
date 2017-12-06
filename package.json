@@ -1,0 +1,28 @@
+{
+  "name": "monsoon-brainstorming-app",
+  "version": "1.0.0",
+  "description": "a brainstorming dash providing simple UI for free thinkers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnennandukwe/monsoon-brainstorming-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nnennandukwe/monsoon-brainstorming-app/issues"
+  },
+  "homepage": "https://github.com/nnennandukwe/monsoon-brainstorming-app#readme",
+  "dependencies": {
+    "moment": "^2.19.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.10.0"
+  }
+}
