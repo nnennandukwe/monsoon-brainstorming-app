@@ -2,9 +2,10 @@
   "name": "monsoon-brainstorming-app",
   "version": "1.0.0",
   "description": "a brainstorming dash providing simple UI for free thinkers",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +19,11 @@
   "homepage": "https://github.com/nnennandukwe/monsoon-brainstorming-app#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
     "express": "^4.16.2",
     "moment": "^2.19.3",
-    "mongodb": "^3.0.0-rc0"
+    "mongodb": "^2.2.33",
+    "nodemon": "^1.12.5"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
